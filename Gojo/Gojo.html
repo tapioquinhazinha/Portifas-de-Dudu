@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    body {background-color: black }
+    p {color:red}
+    h1 {color:blue}
+    </style>
+<body>
+    <h1>O Honrado</h1>
+    <p>Ei sensei, entre você e o Sukuna <br>
+        Se ele reunir todos os dedos, admito, me cansava<br>
+        Mas, você perderia?<br>
+
+    </p>
+
+    <script>
+        function light(sw) {
+          var pic;
+          if (sw == 0) {
+            pic = "https://i.kym-cdn.com/entries/icons/facebook/000/047/210/nah_id_win.jpg"
+          } else {
+            pic = "https://metagalaxia.com.br/wp-content/uploads/2023/09/Gojo-morto.jpg"
+          }
+          document.getElementById('myImage').src = pic;
+        }
+    </script>
+
+    <img id="myImage" src="https://i.kym-cdn.com/entries/icons/facebook/000/047/210/nah_id_win.jpg" width="500" height="500">
+
+    <p>
+        <button type="button" onclick="light(1)">Buxa</button>
+        <button type="button" onclick="light(0)">Vivo</button>
+    </p>
+
+</body>
+</html>

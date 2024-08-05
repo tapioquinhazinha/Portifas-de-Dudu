@@ -12,6 +12,15 @@
     echo $carros[1], "<br>";
     echo $carros[3], "<br>";
 
+$carros[4] = "Clio";
+    $carros[11] = "Versa";
+    $carros[] = "Sandero";
+
+    echo $carros[4], "<br>";
+    echo $carros[5], "<br>";
+    echo $carros[11], "<br>";
+    echo $carros[12], "<br>";
+
 
 
 

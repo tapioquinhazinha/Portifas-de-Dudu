@@ -30,8 +30,32 @@
     $cpf = $_POST["cpf"];
     echo "CPF: ", $cpf,"<br>";
 
-    $adress = $_POST["adress"];
-    echo "Endereço Completo:", $adress,"<br>";
+    $log = $_POST["log"];
+    echo "Logadouro: ", $log,"<br>";
+
+    $num = $_POST["num"];
+    echo "Número: ", $num,"<br>";
+
+    $cpmpl = $_POST["cpmpl"];
+    echo "Complemento: ", $cpmpl,"<br>";
+
+    $hood = $_POST["hood"];
+    echo "Bairro: ", $hood,"<br>";
+
+    $state = $_POST["state"];
+    echo "Estado: ", $state,"<br>";
+
+    $city = $_POST["city"];
+    echo "Cidade: ", $city,"<br>";
+
+    $cep = $_POST["cep"];
+    echo "CEP: ", $cep,"<br>";
+
+    $cell = $_POST["cell"];
+    echo "Telefone de Contato: ", $cell,"<br>";
+
+    $mail = $_POST["mail"];
+    echo "E-mail:", $mail,"<br>";
 
 
 

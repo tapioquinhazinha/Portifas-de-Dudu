@@ -42,4 +42,4 @@ if($query){
     echo "<a href='index.php'><button title='Home page'>Voltar</button></a>";
     echo "</center>";
 }
-?>
+/?>

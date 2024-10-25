@@ -5,7 +5,7 @@ if(!$conn){
     die("Falha na Conexão" . mysqli_connect_error());
 }
 
-$nome = "$_POST[name]";
+$nome = "$_POST[nome]";
 
 $dtnasc = "$_POST[dtnasc]";
 
@@ -34,7 +34,7 @@ die(mysqli_error(mysql: $conn));
 if($query){
     echo "<center>";
     echo "Cadastro Realizado Com Sucesso!!<br>";
-    echo "<a href='cadastrar.html'><button title='Home page'>Voltar</button></a>";
+    echo "<a href='pagina-inicial.html'><button title='Home page'>Voltar</button></a>";
     echo "</center>";
 }else{
     echo "<center>";

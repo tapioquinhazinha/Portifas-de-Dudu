@@ -21,11 +21,18 @@ img{
     height: 500px;
 }
 
+ 
+
     div{
+        text-align: center;
+    }
+
+    label{
+        color: red;
         text-align: center;
 
     }
-    
+
 a:link, a:visited {
     background-color: white;
     color: black;
@@ -40,3 +47,19 @@ a:link, a:visited {
     background-color: red;
     color: white;
   }
+  .classe{
+    text-align: center;
+    margin-left: 33%;
+}
+.classe2{
+    text-align: center;
+    margin-left: 39%;
+}
+
+.botao{
+    margin-right: 50%;
+
+}
+.botao2{
+    margin-right: 62%;
+}

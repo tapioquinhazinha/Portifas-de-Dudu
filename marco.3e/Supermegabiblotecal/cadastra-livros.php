@@ -11,8 +11,6 @@ $Autor = "$_POST[Autor]";
 
 $Editora = "$_POST[Editora]";
 
-$Sinopse = "$_POST[Sinopse]";
-
 $AnoPublicacao = "$_POST[AnoPublicacao]";
 
 $Genero = "$_POST[Genero]";
@@ -20,9 +18,9 @@ $Genero = "$_POST[Genero]";
 $Paginas = "$_POST[Paginas]";
 
 $sql = "INSERT INTO `livros`
-(`Titulo`, `Autor`, `Editora`, `Sinopse`, `AnoPublicacao`, `Genero`, `Paginas`)
+(`Titulo`, `Autor`, `Editora`, `AnoPublicacao`, `Genero`, `Paginas`)
 VALUES 
-('$Titulo','$Autor','$Editora','$Sinopse','$AnoPublicacao','$Genero','$Paginas')";
+('$Titulo','$Autor','$Editora','$AnoPublicacao','$Genero','$Paginas')";
 
 
 
